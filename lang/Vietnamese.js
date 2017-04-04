@@ -10,13 +10,13 @@ FAE.lang = {
     total_posts : 'Tổng số bài',
     total_topics : 'Tổng số chủ đề',
     total_users : 'Tổng số thành viên',
-    record_users : 'Hầu hết các thành viên Online',
-    board_age : 'Tuổi diễn đàn (ngày)',
+    record_users : 'Thành viên online nhiều nhất vào',
+    board_age : 'Số ngày hoạt động của diễn đàn',
     newest_member : 'Thành viên mới nhất',
     hidebox : 'Ẩn:',
     chatbox_tip : 'Di chuột qua để xem ai đang trực tuyến.',
-    chatbox_no_away : 'Không có thành viên hiện đang đi..',
-    chatbox_no_online : 'Không có thành viên đang online.'
+    chatbox_no_away : 'Không có thành viên nào đang AFK.',
+    chatbox_no_online : 'Không có thành viên nào đang online.'
   },
 
 
@@ -81,7 +81,7 @@ FAE.lang = {
       widget_menu_title : '<div class="title module_column_title">Widget Menu</div>',
       widget_menu_tooltip : "menu.title = 'Bảng công cụ chuyển đổi';",
 
-      select_theme : 'Chọn một giao diện',
+      select_theme : 'Chọn giao diện',
       custom_theme : 'Custom theme',
       random_theme : 'Giao diện ngẫu nhiên',
       default_theme : 'Giao diện mặc định',
@@ -97,16 +97,16 @@ FAE.lang = {
       quick_nav_title : "title : 'Điều hướng nhanh'",
       quick_nav_tooltip : "tooltip : 'Bật tắt điều hướng nhanh'",
       quick_nav_notif : 'Thông báo',
-      tool_copy_url_tooltip : 'Sao chép BBCode URL',
-      tool_copy_url_prompt : 'Sao chép BBCode URL dưới đây. (CTRL+C)',
-      tool_admin_panel : 'Bảng quản trị',
-      tool_to_top : 'Đầu trang',
-      tool_to_bottom : 'Cuối trang',
+      tool_copy_url_tooltip : 'Copy BBCode URL',
+      tool_copy_url_prompt : 'Copy BBCode URL dưới đây. (CTRL+C)',
+      tool_admin_panel : 'Bảng điều khiển của quản trị',
+      tool_to_top : 'Lên đầu trang',
+      tool_to_bottom : 'Xuống cuối trang',
 
       img_resizer_full_size : 'Hiển thị kích thước đầy đủ',
       img_resizer_enlarge : 'Phóng to hình ảnh',
-      img_resizer_reduce : 'Giảm hình ảnh',
-      img_resizer_download : 'Tải hình ảnh',
+      img_resizer_reduce : 'Thu nhỏ hình ảnh',
+      img_resizer_download : 'Tải về',
       img_resizer_tooltip : 'Nhấn vào đây để xem hình ảnh đầy đủ',
 
       fae_update_found : 'Một bản cập nhật đã được tìm thấy cho Forumactif Edge. Khi bạn đã sẵn sàng, xin vui lòng truy cập vào FAE Control Panel và nhấp vào "Check for updates" để bắt đầu quá trình cập nhật.'
@@ -134,15 +134,15 @@ FAE.lang = {
 
 
     logged_out_reply : {
-      main_title : '<h2 class="lor_maintitle">Tạo một tài khoản hoặc đăng nhập để trả lời</h2>',
-      main_desc : '<p class="lor_maindesc">Bạn cần phải là một thành viên trả lời.</p>',
+      main_title : '<h2 class="lor_maintitle">Tạo tài khoản hoặc đăng nhập để trả lời</h2>',
+      main_desc : '<p class="lor_maindesc">Chỉ có thành viên có thể trả lời.</p>',
 
       create_account_title : '<h3 class="lor_subtitle">Tạo một tài khoản</h3>',
       create_account_desc : '<p class="lor_subdesc">	Tham gia cộng đồng của chúng tôi bằng cách tạo một tài khoản mới. Dễ thôi!</p>',
       create_account_button : '<a href="/register" class="button1">Tạo tài khoản mới</a>',
 
       log_in_title : '<h3 class="lor_subtitle">Đăng nhập</h3>',
-      log_in_desc : '<p class="lor_subdesc">Bạn đã có sẵn một tài khoản? Không có vấn đề, đăng nhập tại đây.</p>',
+      log_in_desc : '<p class="lor_subdesc">Đã có tài khoản? Không có vấn đề, đăng nhập tại đây.</p>',
       log_in_button : '<a href="/login" class="button1">Đăng nhập</a>'
     }
 
@@ -156,9 +156,9 @@ FAE.lang = {
     fae_actions : 'Hành động',
 
     fae_install : 'Cài đặt',
-    fae_reinstall : 'Cài đặt lại',
+    fae_reinstall : 'Cài lại',
     fae_install_complete : 'HOÀN TẤT!',
-    fae_install_warning : 'Bạn có chắn chắn muốn {INSTALL} Forumactif Edge? Nó sẽ ghi đè lên giao diện và xóa các JavaScripts hiện tại của bạn.\\\n\\\nHãy chắc chắn là bạn đã sao lưu các nội dung cá nhân của bạn như CSS, Templates, và JavaScripts trước khi tiếp tục. Nhấn vào "Cancel" nếu bạn chưa sẵn sàng để cài đặt Forumactif Edge.',
+    fae_install_warning : 'Bạn có chắc chắn muốn {INSTALL} Forumactif Edge? Nó sẽ ghi đè lên giao diện và xóa các JavaScripts hiện tại của bạn.\\\n\\\nHãy chắc chắn là bạn đã sao lưu các nội dung cá nhân của bạn như CSS, Templates, và JavaScripts trước khi tiếp tục. Nhấn vào "Cancel" nếu bạn chưa sẵn sàng để cài đặt Forumactif Edge.',
 
     fae_uninstall : 'Gỡ bỏ cài đặt',
     fae_uninstall_warning : 'Bạn có chắc chắn bạn muốn gỡ bỏ cài đặt Forumactif Edge? Tất cả CSS, JavaScript, và Template sẽ bị xóa ; Diễn đàn này sẽ được chuyển về giao diện phpBB3 mặc định.\\\n\\\nHãy chắc chắn là bạn đã sao lưu các nội dung cá nhân của bạn như CSS, Templates, và JavaScripts trước khi tiếp tục. Nhấn vào "Cancel" nếu bạn không muốn gỡ bỏ Forumactif Edge.',
@@ -174,12 +174,12 @@ FAE.lang = {
 
     fae_translate : 'Thay đổi ngôn ngữ',
     fae_translate_same : 'Forumactif Edge đã có trong {LANG}. Vui lòng chọn một ngôn ngữ khác.',
-    fae_translate_warning : 'Bạn có chắn chắn muốn thay đổi ngôn ngữ của Forumactif Edge thành {LANG} ?',
+    fae_translate_warning : 'Bạn có chắc chắn muốn thay đổi ngôn ngữ của Forumactif Edge thành {LANG} ?',
     fae_translate_start : 'Quá trình dịch của Forumactif Edge sẽ bắt đầu ngay. Vui lòng đợi..',
     fae_translate_get : 'Đang nhận dữ liệu ngôn ngữ {LANG}...',
     fae_translate_loaded : 'Dữ liệu ngôn ngữ đã được tải về. Quá trình dịch sẽ bắt đầu, xin vui lòng không đóng tab này.',
 
-    fae_err_not_founder : 'Chỉ có <a href="/u1">người sáng lập</a> mới có thể sử dụng bảng điều khiển này. Hãy liên hệ với họ để được giúp đỡ trong việc cài đặt Forumactif Edge.',
+    fae_err_not_founder : 'Chỉ có <a href="/u1">người sáng lập</a> có thể sử dụng bảng điều khiển này. Hãy liên hệ với họ để được giúp đỡ trong việc cài đặt Forumactif Edge.',
 
     left : 'Left',
     center : 'Center',
